@@ -12,7 +12,7 @@ License: MIT
 This plugin forbids any user to choose any password from the "common passwords list" obtained from http://www.openwall.com/passwords/wordlists/, and requires any who are already doing so to reset their passwords.
 
 == Upgrade Notice ==
-First release
+Tested up to 3.5
 
 == Screenshots ==
 
