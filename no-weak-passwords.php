@@ -21,11 +21,11 @@ define ('NOWEAKPASSWORDS_VERSION', '1.0');
 add_action('user_profile_update_errors', 'no_weak_passwords_update', 1, 3);
 
 // Add our hook to refuse logins on existing passwords
-// The regular WordPress login goes with priority 20 - so we go lower in higher in order to run later, and thus avoid indicating account status if their password already failed. Let's go much higher, as our only function is to over-rule a granted login.
+// The regular WordPress login goes with priority 20 - so we go higher in order to run later, and thus avoid indicating account status if their password already failed. Let's go much higher, as our only function is to over-rule a granted login.
 // See WP's own use in http://svn.automattic.com/wordpress/tags/3.4/wp-includes/user.php
 // This function is defined in the library
 add_filter('authenticate', 'no_weak_passwords_authenticate_login', 999, 3);
-# This is a filter for authenticate - it checks (for non-admin users) that a corresponding coin user exists and is active
+# This is a filter for authenticate - it checks (for non-admin users) that the password is not forbidden
 function no_weak_passwords_authenticate_login($user, $username, $password) {
 
 	// If WP has not successfully obtained a user object, then bail out already
