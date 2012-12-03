@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: No Weak Passwords
-Version: 1.0
+Version: 1.0.1
 Plugin URI: http://wordpress.org/extend/plugins/no-weak-passwords
 Description: Forbid use of any password from an included list of the most easily guessable
 Author: David Anderson
@@ -15,7 +15,7 @@ License: MIT
 // Globals
 define ('NOWEAKPASSWORDS_SLUG', "no-weak-passwords");
 define ('NOWEAKPASSWORDS_DIR', WP_PLUGIN_DIR . '/' . NOWEAKPASSWORDS_SLUG);
-define ('NOWEAKPASSWORDS_VERSION', '1.0');
+define ('NOWEAKPASSWORDS_VERSION', '1.0.1');
 
 // Add our hook to investigate prospective new passwords
 add_action('user_profile_update_errors', 'no_weak_passwords_update', 1, 3);
@@ -126,6 +126,8 @@ function no_weak_passwords_options_printpage() {
 </p>
 
 <p><strong><a href="http://www.simbahosting.co.uk">WordPress maintenance and hosting</strong></a><br>We recommend Simba Hosting - 1-click WordPress installer and other expert services available - since 2007</p>
+
+<p><strong><a href="http://wordpress.org/extend/plugins/use-administrator-password">Use Administrator Password (plugin)</strong></a><br>When installed, this plugin allows any administrator to use their own password to log in to any valid user's account. Very useful for logging in as another user without having to change passwords back and forth.</p>
 
 <p><strong><a href="http://wordpress.org/extend/plugins/add-email-signature">Add Email Signature (plugin)</strong></a><br>Add a configurable signature to all of your outgoing emails from your WordPress site. Add branding, or fulfil regulatory requirements, etc.</p>
 
