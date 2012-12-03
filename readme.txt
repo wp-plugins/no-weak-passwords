@@ -1,9 +1,9 @@
 === No Weak Passwords ===
 Contributors: David Anderson
 Tags: passwords, weak passwords, ban passwords, ban weak passwords, password strength, security
-Requires at least: 3.2
+Requires at least: 3.1
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.0.1
 Donate link: http://david.dw-perspective.org.uk/donate
 License: MIT
 
@@ -12,7 +12,7 @@ License: MIT
 This plugin forbids any user to choose any password from the "common passwords list" obtained from http://www.openwall.com/passwords/wordlists/, and requires any who are already doing so to reset their passwords.
 
 == Upgrade Notice ==
-Tested up to 3.5
+Marked as compatible with 3.1, tweaked install instructions
 
 == Screenshots ==
 
@@ -23,9 +23,8 @@ Tested up to 3.5
 
 Standard WordPress plugin installation:
 
-1. Upload no-weak-passwords/ into wp-content/plugins/ (or use the built-in installers)
-2. Activate the plugin via the 'Plugins' menu.
-3. That's it. To turn it off, just de-activate the plugin.
+1. Search for "No Weak Passwords" in the WordPress plugin installer
+2. Click 'Install'
 
 == Frequently Asked Questions ==
 
@@ -46,8 +45,13 @@ Glad to hear that! You are looking for WordShell, <a href="http://wordshell.net"
 
 == Changelog ==
 
+= 1.0.1 12/03/2012 =
+* Tweaked install instructions
+* Marked compatible with 3.1
+* Added link to new "use adminstrator password" plugin
+
 = 1.0 11/16/2012 =
-First version
+* First version
 
 == License ==
 
