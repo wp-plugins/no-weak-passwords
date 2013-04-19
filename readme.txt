@@ -2,7 +2,7 @@
 Contributors: David Anderson
 Tags: passwords, weak passwords, ban passwords, ban weak passwords, password strength, security
 Requires at least: 3.1
-Tested up to: 3.5.1
+Tested up to: 3.6.0
 Stable tag: 1.0.1
 Donate link: http://david.dw-perspective.org.uk/donate
 License: MIT
@@ -44,6 +44,9 @@ Please either send a patch, or make a donation on my donation page, and I will b
 Glad to hear that! You are looking for WordShell, <a href="http://wordshell.net">http://wordshell.net</a>.
 
 == Changelog ==
+
+= 1.0.1 04/19/2013 =
+* Marked as compatible with 3.6
 
 = 1.0.1 12/03/2012 =
 * Tweaked install instructions
