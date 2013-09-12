@@ -1,5 +1,5 @@
 === No Weak Passwords ===
-Contributors: David Anderson
+Contributors: DavidAnderson
 Tags: passwords, weak passwords, ban passwords, ban weak passwords, password strength, security
 Requires at least: 3.1
 Tested up to: 3.6.1
