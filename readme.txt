@@ -2,7 +2,7 @@
 Contributors: DavidAnderson
 Tags: passwords, weak passwords, ban passwords, ban weak passwords, password strength, security
 Requires at least: 3.2
-Tested up to: 3.8
+Tested up to: 4.0
 Stable tag: 1.0.1
 Donate link: http://david.dw-perspective.org.uk/donate
 License: MIT
@@ -10,9 +10,6 @@ License: MIT
 == Description ==
 
 This plugin forbids any user to choose any password from the "common passwords list" obtained from http://www.openwall.com/passwords/wordlists/, and requires any who are already doing so to reset their passwords.
-
-== Upgrade Notice ==
-Marked as compatible with 3.1, tweaked install instructions
 
 == Screenshots ==
 
