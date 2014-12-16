@@ -2,7 +2,7 @@
 Contributors: DavidAnderson
 Tags: passwords, weak passwords, ban passwords, ban weak passwords, password strength, security
 Requires at least: 3.2
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.0.1
 Donate link: http://david.dw-perspective.org.uk/donate
 License: MIT
